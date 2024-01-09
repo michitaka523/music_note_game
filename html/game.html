@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<script type="text/javascript" src="../js/abcjs-basic-min.js" ></script>
+<script type="text/javascript" src="../js/game.js" ></script>
+<link rel="stylesheet" type="text/css" href="../css/game.css">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>音符当てゲーム</title>
+</head>
+
+<body>
+
+  <h1>音符あてゲーム</h1>
+
+  <p id="level"></p>
+
+  <div id="quiz"></div>
+
+  <button id="defaultButton" onclick="generateRandomNotes()">
+    次の問題
+  </button>
+
+  <button id="defaultButton" onclick="ViewAnswer()">
+    答えを見る
+  </button>
+
+  <button id="defaultButton"  onclick="location.href='./index.html'">
+    終了
+  </button>
+
+  <p id="result"></p>
+
+  <script>
+    generateRandomNotes()
+  </script>
+  
+</body>
+</html>

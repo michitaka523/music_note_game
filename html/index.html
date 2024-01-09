@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<script type="text/javascript" src="../js/abcjs-basic-min.js" ></script>
+<script type="text/javascript" src="../js/game.js" ></script>
+<link rel="stylesheet" type="text/css" href="../css/game.css">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>音符当てゲームホーム画面</title>
+</head>
+
+<body>
+
+  <h1>音符あてゲーム</h1>
+
+  <label for="difficultySelect">難易度A~E:</label>
+
+  <form>
+    <select id="difficultySelect">
+      <option value="A">A: どれみふぁそ</option>
+      <option value="B">B: どれみふぁそらしど</option>
+      <option value="C">C: どれみふぁそ（高い）</option>
+      <option value="D">D: どれみふぁそらしど（高い）</option>
+      <option value="E">E: すべて</option>
+    </select>
+    <br>
+  </form>
+  <button id="defaultButton"  onclick=start_game()>ゲームスタート</button>
+
+
+</body>
+</html>
